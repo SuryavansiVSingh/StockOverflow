@@ -1,0 +1,47 @@
+/* Header Styling */
+.header {
+  background-color: #1e293b; /* Deep blue */
+  color: #f8fafc; /* Light text */
+  padding: 15px 30px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+  
+  /* Logo Container */
+  .header-logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-logo {
+    height: 25px; /* Adjust size as needed */
+    width: auto;
+  }
+  
+  /* Title Container */
+  .header-title-container {
+    flex: 1; /* Push title to center */
+    text-align: center;
+  }
+  
+  .header-title {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif; /* Modern and clean font */
+    margin: 0;
+  }
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      padding: 15px;
+    }
+  
+    .header-title-container {
+      margin-top: 10px;
+    }
+  }
+  
